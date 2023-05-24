@@ -27,7 +27,7 @@ For each test case, print the answer — the maximum non-negative integer k such
 
 ## Http connections:
  This proyect has two kind of http connection: GET and POST
- #### GET connection has the following format:
+ c GET connection has the following format:
  ``http://localhost:8080/api/maximum?divisor=x&remainder=y&number=n``
  
  #### POST connection has the following format:
@@ -44,6 +44,8 @@ For each test case, print the answer — the maximum non-negative integer k such
 Also the necessary tests have  been implemented for the classes that need them, ensuring a minimum of 80% of the code of the whole project is tested.
 
 ## How to execute:
+#### API:
 Depending on the IDE used for execution, the process may vary somewhat. Although usually (and with IntelliJ) it is enough to select the main class 'MaximumNumberApplication' and select the 'execute' option.
 
-To run the implemented tests and see the result, you can follow a similar process to the previous one, and as mentioned before, it depends on the IDE used. However, in IntelliJ it is necessary to select the root folder of the project in the IDE explorer and execute the option 'Run All Tests'.
+#### Tests:
+To run the developed tests and see the result, you can follow a similar process to the previous one, and as mentioned before, it depends on the IDE used. However, in IntelliJ it is necessary to select the root folder of the project in the IDE explorer and execute the option 'Run All Tests'.
