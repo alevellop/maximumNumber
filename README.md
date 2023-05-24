@@ -49,3 +49,6 @@ Depending on the IDE used for execution, the process may vary somewhat. Although
 
 #### Tests:
 To run the developed tests and see the result, you can follow a similar process to the previous one, and as mentioned before, it depends on the IDE used. However, in IntelliJ it is necessary to select the root folder of the project in the IDE explorer and execute the option 'Run All Tests'.
+
+#### Postman:
+Inside the 'resource' folder you can find the 'Postman' folder with a JSON file, containing tests defined to run in Postman.
