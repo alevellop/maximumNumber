@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "01376e03-5436-4014-892f-b391d38fdf5e",
+		"name": "CalculateMaximumNumber",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getRequest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/maximum?divisor=10&remainder=5&number=187",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"maximum"
+					],
+					"query": [
+						{
+							"key": "divisor",
+							"value": "10"
+						},
+						{
+							"key": "remainder",
+							"value": "5"
+						},
+						{
+							"key": "number",
+							"value": "187"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostRequest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"divisor\": 10,\r\n    \"remainder\": 5,\r\n    \"number\": 187\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/maximum",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"maximum"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -110,7 +110,7 @@ class CalculationControllerTest {
           .andExpect(status().isBadRequest())
           .andExpect(expected -> assertTrue(expected.getResolvedException() instanceof HttpMessageNotReadableException))
           .andExpect(expected ->
-              assertEquals("Required request body is missing: public org.springframework.http.ResponseEntity<?> com.api.maximumNumber.controller.CalculationController.calculateMaximum(com.api.maximumNumber.models.CalculationRequest)",
+              assertEquals("Required request body is missing: public org.springframework.http.ResponseEntity<com.api.maximumNumber.models.CalculationResponse> com.api.maximumNumber.controller.CalculationController.calculateMaximum(com.api.maximumNumber.models.CalculationRequest)",
                   expected.getResolvedException().getMessage()));
    }
 

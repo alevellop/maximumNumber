@@ -17,7 +17,7 @@ public class CalculationController {
    private final CalculationValidator validator;
 
    @GetMapping
-   public ResponseEntity<?> calculateMaximum(
+   public ResponseEntity<CalculationResponse> calculateMaximum(
        @RequestParam int divisor,
        @RequestParam int remainder,
        @RequestParam int number) {
@@ -30,7 +30,7 @@ public class CalculationController {
    }
 
    @PostMapping
-   public ResponseEntity<?> calculateMaximum(@RequestBody CalculationRequest request) {
+   public ResponseEntity<CalculationResponse> calculateMaximum(@RequestBody CalculationRequest request) {
 
       validator.validateNumbersArePositive(request.getDivisor(), request.getRemainder(), request.getNumber());
 
