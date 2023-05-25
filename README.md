@@ -43,7 +43,8 @@ For each test case, print the answer — the maximum non-negative integer k such
  - Validator: contains the class in charge of validating whether the parameters entered are valid to perform the calculation.  
  - Exception manager: contains the class in charge of managing the different errors that may occur when executing the API, and displays a customised message for the cases taken into account. 
  - Constant: contains a class where the different messages used in the management of exceptions are stored.
-Also the necessary tests have  been implemented for the classes that need them, ensuring a minimum of 80% of the code of the whole project is tested.
+
+Also the necessary tests have  been implemented for the classes that need them and stored in 'maximumNumber/src/test/java/com/api/maximumNumber/', ensuring a minimum of 80% of the code of the whole project is tested.
 
 ## How to execute:
 #### API:
